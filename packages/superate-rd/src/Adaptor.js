@@ -6,8 +6,8 @@ import { execute as commonExecute } from '@openfn/language-common';
  * Wraps `language-common/execute` to make working with this API easier.
  * @example
  * execute(
- *   get('foo'),
- *   post('bar')
+ *   create('foo'),
+ *   delete('bar')
  * )(state)
  * @private
  * @param {Operations} operations - Operations to be performed.
